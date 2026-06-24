@@ -107,10 +107,11 @@ ul {
 }
 
 
-img {
+#home img {
     border: 15px double brown;
     background-color: burlywood;
-    border-radius: 40px;
+    border-radius: 10%; 
+    width: 40vh;
 }
 
 .dark-mode {
@@ -152,6 +153,34 @@ img {
 }
 
 h1, h2 {
-    font-family: luckiestguy;
     font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    .skills {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav {
+    background-color: burlywood;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+    h1{
+    font-size: 30px;
+}   
+h2{
+    font-size: 25px;
+}
+     h3 {
+        font-size: 20 px;
+     }
+    p, a {
+        font-size: 13px;
+    }
+    
 }
