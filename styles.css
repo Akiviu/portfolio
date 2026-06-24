@@ -163,13 +163,17 @@ h1, h2 {
     }
     nav {
     background-color: burlywood;
-    padding: 10px 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
 }
+    ul {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
     h1{
     font-size: 25px;
 }   
