@@ -24,8 +24,10 @@ nav {
     top: 0;
 }
 
+
 a {
     color:brown;
+    text-decoration: none;
     transition: background-color 0.3s ease-in-out,
     color 0.3s ease-in-out;
 }
@@ -50,7 +52,7 @@ ul {
     align-items: center;
 }
 
-#home button, #theme-btn {
+#theme-btn {
     border: 2px solid brown;
     background-color:burlywood;
     color:brown;
@@ -124,7 +126,7 @@ ul {
 .dark-mode button,
 .dark-mode #home button,
 .dark-mode #theme-btn,
-.dark-mode img
+.dark-mode #home img
 {
     background-color: #303030;
     color: white;
